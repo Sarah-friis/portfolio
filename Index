@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarah | UX/UI Designer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #242424;
+      background: #faf9f6;
+    }
+    header, section, footer {
+      padding: 40px 8%;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    a { color: inherit; }
+    .hero { padding: 120px 8%; }
+    h1 { font-size: clamp(40px, 7vw, 88px); }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,
+        minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .project {
+      background: #e9e7e2;
+      padding: 40px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>Sarah — UX/UI Designer</strong>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, I'm Sarah.</h1>
+    <p>I create intuitive digital experiences.</p>
+    <a href="#projects">Explore my work ↓</a>
+  </section>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>AI ChatGPT Platform</h3>
+        <p>UX/UI Design · User Research</p>
+      </div>
+      <div class="project">
+        <h3>Diabetes Insights Library</h3>
+        <p>Product Design · AI</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Let's connect</h2>
+  </footer>
+</body>
+</html>
